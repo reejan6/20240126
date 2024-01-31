@@ -4,7 +4,8 @@ const o = {
         firstName: 'Grace',
         lastName: 'Hopper',
         age: 89,
-        fullName: () => { return this.firstName + ' ' + this.lastName }
+        //this wont work, should use regular function rather that arrow
+        fullName: () => { return this.firstName + ' ' + this.lastName } 
     }
 }
 

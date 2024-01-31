@@ -1,3 +1,4 @@
+// we have a nested function 
 function makeFunc() {
     const name = 'Mozilla';
     function dispName() {
